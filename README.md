@@ -20,6 +20,7 @@ The check-in progress page helps you track your progress visiting the places lis
   <tr>
     <td><img src="screenshot1.png"></td>
     <td><img src="screenshot2.png"></td>
+    <td><img src="screenshot3.png"></td>
   </tr>
 </table>
   
