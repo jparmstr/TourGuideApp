@@ -1,0 +1,71 @@
+<resources>
+    <!-- Default strings -->
+    <string name="app_name">Raleigh Tour Guide</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Raleigh, North Carolina</string>
+    <string name="nav_header_subtitle">Tour Guide App</string>
+
+    <!-- Place Categories text -->
+    <string name="parks_text">Parks</string>
+    <string name="landmarks_text">Landmarks</string>
+    <string name="restaurants_text">Restaurants</string>
+    <string name="venues_text">Venues</string>
+
+    <!-- Tour Guide App text -->
+    <string name="raleigh_nc_text">Raleigh, NC</string>
+    <string name="website_text">Website</string>
+    <string name="acres_text">%1$.0f acres</string>
+    <string name="trail_length_text">%1$s trail length</string>
+    <string name="check_in_button_text">Check In</string>
+    <string name="check_in_menu_title">Check In Progress</string>
+    <string name="checked_in_true">Check in complete!</string>
+    <string name="menu_explore_title">Explore</string>
+    <string name="checked_in_false">You have not checked in yet.</string>
+    <string name="test_location_text">Test Location</string>
+    <string name="permission_rationale_location">Location permission is needed for check-in functionality</string>
+    <string name="permission_rationale_internet">Internet permission is needed to convert an address to latitude and longitude (check-in functionality)</string>
+
+    <!-- Details tab headers -->
+    <string name="header_trails">Trails</string>
+    <string name="header_history">History</string>
+    <string name="header_type_of_food">Type of Food</string>
+    <string name="header_events">Events</string>
+
+    <!-- Menu items -->
+    <string name="action_list">List</string>
+    <string name="action_gallery">Gallery</string>
+
+    <!-- Content descriptions -->
+    <string name="content_description_list_item_icon">Icon for this list item.</string>
+    <string name="content_description_gallery_thumbnail_image">Photo of this place.</string>
+    <string name="content_description_nav_header_image">Raleigh City Seal</string>
+    <string name="content_description_checked_in_indicator">Indicator showing whether this place has been checked into.</string>
+    <string name="content_description_main_cityscape_image">Raleigh cityscape title image.</string>
+
+    <!-- Check in progress text -->
+    <string name="check_in_progress_parks_text">Parks: %1$.0f of %2$.0f</string>
+    <string name="check_in_progress_landmarks_text">Landmarks: %1$.0f of %2$.0f</string>
+    <string name="check_in_progress_restaurants_text">Restaurants: %1$.0f of %2$.0f</string>
+    <string name="check_in_progress_venues_text">Venues: %1$.0f of %2$.0f</string>
+
+    <!-- Main Fragment tutorial text -->
+    <string name="main_features_header">Features</string>
+    <string name="main_navigation_drawer_header">Navigation Drawer</string>
+    <string name="main_navigation_drawer_text">Click the hamburger icon in the top left of the screen to open the Navigation Drawer.
+        Select Place Categories or Check In Progress to navigate to those sections of the app.</string>
+    <string name="main_location_header">Location</string>
+    <string name="main_location_text">This app requires permissions granted for coarse location, fine location, and internet access.
+        The internet access is used to translate addresses to latitude and longitude. The coarse and fine location are used to determine
+        whether you\'re in range to check in to a place. If you\'re testing this app on an emulator, you\'ll need to go to Extended Controls >
+        Location > Send before the virtual device will report its location. Also note that the Android Emulator\'s Extended Controls page lists
+        Longitude, Latitude instead of the standard order of Latitude, Longitude.</string>
+    <string name="main_check_in_header">Place Check-Ins</string>
+    <string name="main_check_in_text">You can check into places when you visit them. Go to a place\'s detail page and click Address to locate it.
+        Once you\'ve traveled to the place, click the Check In button. Go to the Check In Progress page to track your progress.</string>
+    <string name="main_check_in_progress_header">Check-In Progress Page</string>
+    <string name="main_check_in_progress_text">The check-in progress page helps you track your progress visiting the places listed in this app.
+        You can click the place categories on the check-in progress page. When accessing place lists this way, additional icons will be shown
+        to help you identify which places have or have not been visited yet.</string>
+
+</resources>

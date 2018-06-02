@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/nav_parks"
+            android:icon="@drawable/ic_park"
+            android:title="@string/parks_text" />
+        <item
+            android:id="@+id/nav_landmarks"
+            android:icon="@drawable/ic_landmark"
+            android:title="@string/landmarks_text" />
+        <item
+            android:id="@+id/nav_restaurants"
+            android:icon="@drawable/ic_restaurant"
+            android:title="@string/restaurants_text" />
+        <item
+            android:id="@+id/nav_venues"
+            android:icon="@drawable/ic_venue"
+            android:title="@string/venues_text" />
+    </group>
+
+    <item android:title="@string/menu_explore_title">
+        <menu>
+            <item
+                android:id="@+id/nav_check_in_progress"
+                android:icon="@drawable/ic_check_in"
+                android:title="@string/check_in_menu_title" />
+        </menu>
+    </item>
+
+</menu>

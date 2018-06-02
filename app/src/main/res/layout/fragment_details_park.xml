@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsParkFragment">
+
+    <TextView
+        android:id="@+id/text_park_details_acres"
+        style="@style/style_PlaceDetailsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_description"
+        android:drawablePadding="@dimen/tour_guide_drawable_icon_padding"
+        android:drawableStart="@drawable/ic_park"
+        tools:text="Acres" />
+
+    <TextView
+        android:id="@+id/text_park_details_trail"
+        style="@style/style_PlaceDetailsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_description"
+        android:drawablePadding="@dimen/tour_guide_drawable_icon_padding"
+        android:drawableStart="@drawable/ic_trail"
+        tools:text="Trail Length" />
+
+</LinearLayout>

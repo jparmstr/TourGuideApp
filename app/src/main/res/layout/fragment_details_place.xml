@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".DetailsPlaceFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Name and Photo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_place_details_name"
+                style="@style/style_PlaceListName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:text="Place Name" />
+
+            <ImageView
+                android:id="@+id/image_place_details_photo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/parks_text"
+                android:scaleType="centerCrop"
+                android:src="@drawable/park_shelley_lake_photo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_place_details_address"
+            style="@style/style_PlaceDetailsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_address"
+            android:drawablePadding="@dimen/tour_guide_drawable_icon_padding"
+            android:drawableStart="@drawable/ic_address"
+            tools:text="Address" />
+
+        <!-- Phone and Website -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_place_details_phone"
+                style="@style/style_PlaceDetailsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="@dimen/tour_guide_drawable_icon_padding"
+                android:drawableStart="@drawable/ic_phone"
+                tools:text="Phone Number" />
+
+            <TextView
+                android:id="@+id/text_place_details_website"
+                style="@style/style_PlaceDetailsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_website"
+                android:drawablePadding="@dimen/tour_guide_drawable_icon_padding"
+                android:drawableStart="@drawable/ic_website"
+                tools:text="Website" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_place_details_hours"
+            style="@style/style_PlaceDetailsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_hours"
+            android:drawablePadding="@dimen/tour_guide_drawable_icon_padding"
+            android:drawableStart="@drawable/ic_hours"
+            tools:text="Hours" />
+
+        <TextView
+            android:id="@+id/text_place_details_description"
+            style="@style/style_PlaceDetailsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_description"
+            android:drawablePadding="@dimen/tour_guide_drawable_icon_padding"
+            android:drawableStart="@drawable/ic_description"
+            tools:text="Description" />
+
+        <!-- Check in layout -->
+        <LinearLayout
+            android:id="@+id/layout_check_in_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/check_in_spacing_narrow"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/check_in_text_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/check_in_spacing_wide"
+                android:layout_marginRight="@dimen/check_in_spacing_wide"
+                android:layout_marginTop="@dimen/check_in_spacing_narrow"
+                android:layout_marginBottom="@dimen/check_in_spacing_narrow"
+                android:text="@string/checked_in_false"
+                android:textColor="@color/colorBlack" />
+
+            <Button
+                android:id="@+id/button_check_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/check_in_spacing_wide"
+                android:layout_marginRight="@dimen/check_in_spacing_wide"
+                android:layout_marginTop="@dimen/check_in_spacing_narrow"
+                android:layout_marginBottom="@dimen/check_in_spacing_narrow"
+                android:text="@string/check_in_button_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

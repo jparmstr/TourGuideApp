@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5e80d4</color>
+    <color name="colorPrimaryMedium">#3d5198</color>
+    <color name="colorPrimaryDark">#2e3b7b</color>
+    <color name="colorAccent">#ff5f12</color>
+
+    <!-- Place category colors -->
+    <color name="colorParks">#3d860e</color>
+    <color name="colorLandmarks">#107fa3</color>
+    <color name="colorRestaurants">#962223</color>
+    <color name="colorVenues">#753aab</color>
+
+    <!-- Text colors -->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#d4d4d4</color>
+
+    <!-- Check in indicator colors -->
+    <color name="colorCheckedInGreen">#8dff8d</color>
+    <color name="colorNotCheckedInRed">#ff6868</color>
+
+    <!-- See: https://material.io/tools/color/ -->
+    <!-- See: https://material.io/design/color/the-color-system.html#tools-for-picking-colors -->
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/gallery_item_thumbnail_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gallery_image_thumbnail_size"
+            android:layout_margin="@dimen/gallery_image_thumbnail_padding"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/content_description_gallery_thumbnail_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/park_shelley_lake_photo" />
+
+        <ImageView
+            android:id="@+id/gallery_item_checked_in_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="16dp"
+            android:paddingBottom="16dp"
+            android:contentDescription="@string/content_description_checked_in_indicator"
+            android:visibility="invisible"
+            android:src="@drawable/ic_not_checked_in_large" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/gallery_item_place_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:paddingEnd="@dimen/gallery_image_thumbnail_padding"
+        android:paddingLeft="@dimen/gallery_image_thumbnail_padding"
+        android:paddingRight="@dimen/gallery_image_thumbnail_padding"
+        android:paddingStart="@dimen/gallery_image_thumbnail_padding"
+        android:textColor="@color/colorBlack"
+        tools:text="Place Name" />
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+
+        <!-- Container for title image and text -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Title Image -->
+            <ImageView
+                android:id="@+id/main_fragment_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/content_description_main_cityscape_image"
+                android:foreground="@drawable/gradient_overlay"
+                android:src="@drawable/title_image_drawable" />
+
+            <!-- Title Text -->
+            <TextView
+                android:id="@+id/main_fragment_title_text"
+                style="@style/style_main_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/raleigh_nc_text" />
+
+        </RelativeLayout>
+
+        <!-- Features Text -->
+        <TextView
+            style="@style/style_main_h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_features_header" />
+
+        <!-- Navigation Drawer header and text -->
+        <TextView
+            style="@style/style_main_h2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_navigation_drawer_header" />
+
+        <TextView
+            style="@style/style_main_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_navigation_drawer_text" />
+
+        <!-- Location header and text -->
+        <TextView
+            style="@style/style_main_h2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_location_header" />
+
+        <TextView
+            style="@style/style_main_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_location_text" />
+
+        <!-- Check in header and text -->
+        <TextView
+            style="@style/style_main_h2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_check_in_header" />
+
+        <TextView
+            style="@style/style_main_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_check_in_text" />
+
+        <!-- Check in progress header and text -->
+        <TextView
+            style="@style/style_main_h2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_check_in_progress_header" />
+
+        <TextView
+            style="@style/style_main_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_check_in_progress_text" />
+
+        <Button
+            android:visibility="gone"
+            android:onClick="testLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="@string/test_location_text" />
+
+    </LinearLayout>
+
+</ScrollView>
