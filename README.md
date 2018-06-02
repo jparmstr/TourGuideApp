@@ -14,3 +14,15 @@ You can check into places when you visit them. Go to a place\'s detail page and 
 
 <b>Check-In Progress Page</b><br>
 The check-in progress page helps you track your progress visiting the places listed in this app. You can click the place categories on the check-in progress page. When accessing place lists this way, additional icons will be shown to help you identify which places have or have not been visited yet.
+
+<h2>Screenshots</h2>
+<table>
+  <tr>
+    <td><img src="screenshot1.png"></td>
+    <td><img src="screenshot2.png"></td>
+  </tr>
+</table>
+  
+<h2>Density Variations Application</h2>
+<p>As part of this project I also created a Windows console application which automatically creates pixel density variations of your Drawable resources.</p>
+Github Repo: https://github.com/jparmstr/AndroidDensities.
